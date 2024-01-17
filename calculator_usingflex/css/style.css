@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/3274408.jpg);
+}
+.glass {
+  /* From https://css.glass */
+  background: rgba(58, 55, 55, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  opacity: 0.9;
+}
+#calculator {
+  height: 30rem;
+  width: 18rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+#screen {
+  font-size: 30px;
+  font-weight: bold;
+  height: 9rem;
+  width: 15rem;
+  margin: 15px 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 2rem;
+}
+.keyboard {
+  /* border: solid; */
+  height: 16rem;
+  width: 17rem;
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.keys {
+  color: #0459a5;
+  /* border: solid 1px black; */
+  font-weight: bold;
+  font-size: 2rem;
+  /* margin: 5px 10px; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 18px;
+
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #c3deee;
+}
+.number {
+  background-color: #acc6d8;
+}
+.operator {
+  background-color: #1d8af0;
+  color: antiquewhite;
+}
