@@ -25,5 +25,4 @@ function ac() {
   let screen = document.getElementById("screen");
   screen.innerHTML = "0";
   localStorage.clear();
-  console.log("clicked");
 }
